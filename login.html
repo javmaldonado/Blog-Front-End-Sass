@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- VINCULO EL .css QUE CREA/CREARÁ SASS con main.scss -->
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <title>registro</title>
+    <title>Login</title>
   </head>
   <body>
     <header class="header">
@@ -24,52 +24,43 @@
     <main class="main">
       <form class="form-login">
         <div class="input-container">
-          <h2 class="input-container__title">Registrate ¡Es gratis!</h2>
-          <input
-            class="input-container__input"
-            type="nombre"
-            name=""
-            id=""
-            placeholder="Nombre"
-          />
-          <input
-            class="input-container__input"
-            type="apellido"
-            name=""
-            id=""
-            placeholder="Apellido"
-          />
+          <h2 class="input-container__title">Bienvenido</h2>
           <input
             class="input-container__input"
             type="email"
             name=""
             id=""
-            placeholder="Email"
+            placeholder="Ingrese su email aqui..."
           />
           <input
             class="input-container__input"
-            type="contraseña"
+            type="password"
             name=""
             id=""
-            placeholder="Contraseña"
+            placeholder="Ingrese su contraseña aqui..."
           />
-          <input
-            class="input-container__input"
-            type="confirmacion de contraseña"
-            name=""
-            id=""
-            placeholder="Confirma tu contraseña"
-          />
+          <div class="remember-container">
+            <div class="checkbox-container">
+              <input
+                class="checkbox-container__checkbox-input"
+                type="checkbox"
+                id="rememberMe"
+              />
+              <label for="rememberMe">Recordarme</label>
+            </div>
+            <!--span olvidaste contraseña -->
+            <a href="#">¿Olvidaste tu contraseña?</a>
+          </div>
         </div>
 
         <div class="buttons-container">
-          
           <a
-            class="buttons-container__button buttons-container__button--login" href="./index.html"
-          >
-            Crear cuenta
-          
+            class="buttons-container__button buttons-container__button--login" href="./home.html">
+        
+      Iniciar sesión
         </a>
+       
+
           <button
             class="buttons-container__button buttons-container__button--google-login"
           >
@@ -78,11 +69,11 @@
               src="https://rotulosmatesanz.com/wp-content/uploads/2017/09/2000px-Google_G_Logo.svg_.png"
               alt="google-logo"
             />
-            <span>Regístrate con Google</span>
+            <span>Iniciar sesión con Google</span>
           </button>
           <p class="buttons-container__register-text">
-            ¿Ya tienes una cuenta?
-            <a class="buttons-container__register-link">Inicia sesión </a>
+            ¿No tienes cuenta?
+            <a class="buttons-container__register-link">Registrate </a>
           </p>
         </div>
       </form>
