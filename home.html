@@ -3,15 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Mi css -->
+    <!-- CSS PROPIO -->
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <title>Home</title>
+    <title>Home Blog Front-End</title>
   </head>
   <body>
     <!-- HEADER -->
     <header class="header">
       <div class="brand-container">
-        <!-- imagen -->
         <img
           class="brand-container__image"
           src="./assets/img/logos/adl.png"
@@ -20,40 +19,25 @@
         <h1 class="brand-container__title">Blog Front-End</h1>
       </div>
     </header>
-    <!-- Novedades iz -->
-    <h2>Novedades</h2>
-
-    <seccion class="novedades">
-      <a href="./post.html" class="text-decoration-none">
+    <!--Seccion 1 Novedades izquierda -->
+    <h1 class="titulos">Novedades</h1>
+    <section class="seccion__novedades">
+    <div class="novedades">
       <div class="novedades__left">
-        <img
-          class="novedades__image"
-          src="./assets/img/posts/bootstrap.png"
-          alt="bootstrap"
-        />
-        <p class="novedades__date  ">24 Noviembre, 2022</p>
-        <h2 class="novedades__title  ">
+        <img class="novedades__image" src="./assets/img/posts/bootstrap.png"
+        alt="bootstrap"/>
+        <p class="novedades__date">24 Noviembre, 2022</p>
+        <h2 class="novedades__title">
           Modifica el tema de Bootstrap con variables CSS
         </h2>
-      </a>
-        <div class="brand-adl">
-          <img
-            class="brand-adl__image"
-            src="./assets/img/logos/adl.png"
-            alt="brand-adl"
-          />
-          <span class="brand-adl__text">Desafio Latam</span>
+    
         </div>
-      </div>
-      <!-- Novedades der -->
 
+      <!-- Contenedor Novedades de la derecha -->
       <div class="novedades__right">
         <div class="post">
-          <img
-            class="post__img"
-            src="./assets/img/posts/Herencia-JS.png"
-            alt="imagenpost"
-          />
+          <img class="post__img" src="./assets/img/posts/Herencia-JS.png"
+          alt="imagenpost"/>
           <div class="post__content">
             <p class="novedades__date">24 Noviembre, 2022</p>
             <h2 class="novedades__title">Herencia en JavaScript</h2>
@@ -67,13 +51,9 @@
             </div>
           </div>
         </div>
-
         <div class="post">
-          <img
-            class="post__img"
-            src="./assets/img/posts/Etiquetas-semánticas-HTML.png"
-            alt="imagenspost"
-          />
+          <img class="post__img" src="./assets/img/posts/Etiquetas-semánticas-HTML.png"
+          alt="imagenspost"/>
           <div class="post__content">
             <p class="novedades__date">24 Noviembre, 2022</p>
             <h2 class="novedades__title">Etiquetas semánticas</h2>
@@ -88,11 +68,8 @@
           </div>
         </div>
         <div class="post">
-          <img
-            class="post__img"
-            src="./assets/img/posts/reactComponents.png"
-            alt="imagenpost"
-          />
+          <img class="post__img" src="./assets/img/posts/reactComponents.png"
+          alt="imagenpost"/>
           <div class="post__content">
             <p class="novedades__date">24 Noviembre, 2022</p>
             <h2 class="novedades__title">Componentes React</h2>
@@ -107,7 +84,10 @@
           </div>
         </div>
       </div>
-    </seccion>
+    </div>
+  </section>
+
+
 <!-- Seccion Populares -->
   <section class="home-section">
     <div class="div-60">
